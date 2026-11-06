@@ -1,0 +1,25 @@
+.env
+.env.*
+!.env.example
+
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+node_modules/
+.next/
+dist/
+build/
+
+.DS_Store
+.cursor/
+
+# Supplied task files, API dumps, and judging data stay local.
+data/supplied/
+data/raw/
+api-cache/
